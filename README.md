@@ -9,7 +9,7 @@ I build the model on "kisti-skl" processors using the command:
 
 ./create_newcase --case CTRL --machine kisti-skl --compiler intel --compset FHIST --res f09_f09_mg17  # for norm_skl queue)
 
-But one can use the following as well:
+But one can use the following as well to build the model on the KNL processors:
 
 ./create_newcase --case CTRL --machine kisti-knl --compiler intel --compset FHIST --res f09_f09_mg17  # for normal/long queue)
 
